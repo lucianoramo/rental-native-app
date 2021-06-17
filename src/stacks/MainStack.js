@@ -16,7 +16,7 @@ const Tab = createBottomTabNavigator();
 export default (params) => (
     <Tab.Navigator
         tabBar={props => <CustomTabBar {...props} />}
-        initialRouteName = "Alugar"
+        initialRouteName = "Lojas"
         screenOptions = {{
             headerShown: false
         }} 

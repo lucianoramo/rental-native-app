@@ -32,7 +32,7 @@ export default ({ state, navigation }) => {
         <TabArea>
             <TabItem
                 onPress={() => goTo('Alugar')}
-                style={{ opacity: state.index === 0 ? 0.5 : 1 }}
+                style={{ color: state.index === 0 ? "#ffcc00" : "black" }}
             >
                 <TabItemImage source={require('../../assets/briefcase.png')} />
                 <TabItemText>Alugar</TabItemText>
